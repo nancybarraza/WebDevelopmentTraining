@@ -1,5 +1,4 @@
 # JS Web-Apps Development.
---
 # Table of contents
 1. [Introduction](#introduction)
 1. [Cross-Browser compatibility](#cross-browser-compatibility)
