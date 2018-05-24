@@ -1,5 +1,5 @@
 # JS Web-Apps Development.
-# Table of contents
+## Table of contents
 1. [Introduction](#introduction)
 1. [Cross-Browser compatibility](#cross-browser-compatibility)
 	* [What is it?](#what-is-it)
@@ -21,3 +21,14 @@
 		* [When use angular?](#when-use-angular)
 		* [When use Vue?](#when-use-vue)
 		* [Is one better than other?](#is-one-better-than-other)
+
+
+## Material Links
+1. [What is cross-browser and why we need it](https://medium.com/@sarahelson81/what-is-cross-browser-compatibility-and-why-we-need-it-b41423c3501a)
+2. [Differences between UI and UX](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide)
+3. [UX Crash Course: 31 Fundamentals](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
+4. [Angular vs Vue](https://itnext.io/angular-5-vs-react-vs-vue-6b976a3f9172)
+5. [Angular vs vue 2](http://cuelogic.com/blog/angular-vs-react-vs-vue-a-2018-comparison/)
+6. [CSS vs SCSS](https://responsivedesign.is/articles/difference-between-sass-and-scss/)
+7. [SCSS vs Less](https://marksheet.io/sass-scss-less.html)
+8. [SCSS vs CSS](https://www.quora.com/What-is-the-difference-between-CSS-SASS-and-SCSS)
