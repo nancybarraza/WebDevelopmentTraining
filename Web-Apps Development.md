@@ -26,7 +26,7 @@
 ## Intro
 A web application or web app is a client–server software application in which the client (or user interface) runs in a web browser.
 
-Here are the main differences between a website and a web app:
+The main differences between a website and a web app:
 
 * The website is a complete product which can be seen on your browser. The web application can be a part of a website
 * Functions of a web application are much complex than functions of a website. A website just shows collected data and information 	while web application maintains the whole website
@@ -41,10 +41,10 @@ The benefits of a web application
 1. The costs for both the business and the end user are reduced as there are less support and maintenance required by the business and lower requirements for the end user’s computer
 1. Different online apps and other programs provide the same functionality as the desktop versions. However, they easily accessible from anywhere and have broader reach because of working across multiple platforms.
 
-###Frontend
+### Frontend
 One of the things that customers look for in a web app is an user-friendly UI and flexible at the same time. Developers need to have strong skills in development tools and frontend techniques. Plus, they need to have the solid understanding of the best practices with regards to the front end of the web app.
 
-###Backend
+### Backend
 Backend specialists should provide a highly scalable web app to ensure the performance of the web app is optimized. With a fast and stable backend, the web app will allow your business to grow.
 
 ## Cross-Browser Compatibility
