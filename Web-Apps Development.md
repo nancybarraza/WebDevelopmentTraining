@@ -5,12 +5,6 @@
 1. [Webpack](#webpack)
 1. [CSS Pre-Processors](#css-pre-processors)
 1. [JS Frameworks](#js-frameworks)
-    * [Vanilla JS vs TypeScript](#vanilla-js-vs-typescript)
-        * [Pros and cons of each](#pros-and-cons-of-each)
-    * [Angular vs Vue](#angular-vs-vue)
-        * [When use angular?](#when-use-angular)
-        * [When use Vue?](#when-use-vue)
-        * [Is one better than other?](#is-one-better-than-other)
 
 
 ## Intro
@@ -237,8 +231,31 @@ The most popular pre-processor in web development across the world is SASS or SC
 ![scss-graph](https://blog.keycdn.com/blog/wp-content/uploads/2015/09/sass-vs-less-poll.webp)
 
 
-## Material Links
-4. [Angular vs Vue](https://itnext.io/angular-5-vs-react-vs-vue-6b976a3f9172)
-5. [Angular vs vue 2](http://cuelogic.com/blog/angular-vs-react-vs-vue-a-2018-comparison/)
-10. [TypeScript vs JavaScript 2](https://hackernoon.com/typescript-vs-javascript-b568bc4a4e58)
-11. [Learn TypeScript or keep with Vanilla?](https://www.quora.com/Should-I-learn-TypeScript-Flow-or-stick-with-vanilla-JS-Would-they-make-me-better-at-all-If-so-which-one)
+## JS Frameworks
+
+JavaScript web frameworks are pretty popular among web-apps developers. They serve as a skeleton for single page apps, allow developers to worry less about code structure or maintenance while focusing on the creation of complex interface elements, and expand opportunities for JS and plain HTML.
+
+![js-frameworks-graph](https://cdn-images-1.medium.com/max/1600/1*ADuCd_GcORWlpCzTASmkxQ.png)
+
+###The advantages of using JavaScript frameworks:
+
+* **Efficiency** — projects that used to take months and hundreds of lines of code now can be achieved much faster with well-structured prebuilt patterns and functions.
+* **Safety** — top javascript frameworks have security arrangements and large communities where members and users also act as testers support them.
+* **Cost** — most of the frameworks are open source and free. Since they help programmers to build custom solutions faster, the ultimate price for web app will be lower.
+
+### So, Which to choose?
+
+#### Angular (Formerly known as Angular2)
+
+Comes with a long list of features that enable building everything, ranging from web to desktop and mobile. The framework is developed with TypeScript from Microsoft with an eye to making JavaScript more agile and attractive for large enterprises. ng2 features a component-based architecture, improved DI (dependency injection), efficient logging service, inter-component communications and more.  It is are a better option for enterprise-based applications or strict programming environments with high standards for code readability.
+
+#### Vue.js
+
+Vue 2.0 release was in 2016, and it took the best from Ember, React and Angular, putting all that into a handy package. It is proved to be faster and leaner, comparing to React and Angular 2.0.
+
+Vue.js is a better choice for quick development of cross-platform solutions. It can become a firm basis for high-end single page applications (SPAs) and beneficial solution to those cases when performance is ahead of good code organization or app structure.
+
+
+#### Conclusion:
+
+Angular uses TypeScript and is ideal for programmers with a solid Object-Oriented Programming (OOP) background who need detailed guidance and structure, while Vue is relatively simple to pick up and integrate for a small team of core developers to agile apps development.
