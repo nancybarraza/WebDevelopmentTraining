@@ -3,9 +3,10 @@
 1. [Introduction](#introduction)
 1. [Cross-Browser compatibility](#cross-browser-compatibility)
 1. [Webpack](#webpack)
-1. [Styling methods](#styling-methods)
-    * [CSS vs SCSS](#css-vs-scss)
-    * [SCSS vs Less](#scss-vs-less)
+1. [CSS Pre-Processors](#css-pre-processors)
+    * [SASS | SCSS](#sass-scss)
+    * [Less](#less)
+    * [Stylus](#stylus)
 1. [JS Frameworks](#js-frameworks)
     * [Vanilla JS vs TypeScript](#vanilla-js-vs-typescript)
         * [Pros and cons of each](#pros-and-cons-of-each)
@@ -73,17 +74,17 @@ A loader is a kind of task in other build tools like the grunt,  and provide a p
 There exist many types of loaders, the most common ones are: 
 
 * Babel-Loader: 
-	Help to generate the scripts in ECMA5 to help with cross-browsing compatibility.
+    Help to generate the scripts in ECMA5 to help with cross-browsing compatibility.
 * HTML-Loader:
-	Process the HTML to generate the static files without compatibility issues.
+    Process the HTML to generate the static files without compatibility issues.
 * Style-Loader:
-	Parse the styles bypass javascript to generate and render the elements without compatibility issues.
+    Parse the styles bypass javascript to generate and render the elements without compatibility issues.
 * SASS-Loader:
-	Parse SASS into CSS. 
+    Parse SASS into CSS. 
 * File-Loader:
-	Loads Files via static assets to help with lazy-serving.
+    Loads Files via static assets to help with lazy-serving.
 * URL-Loader:
-	Loads Files via static assets to help with lazy-serving.
+    Loads Files via static assets to help with lazy-serving.
 
 ### Basic Setup for Webpack.
 ```
@@ -167,9 +168,7 @@ const config = {
     stats: 'errors-only',
     open: true
   },
-
   devtool: 'inline-source-map'
-
 };
 
 module.exports = config;
@@ -178,6 +177,68 @@ module.exports = config;
 ** Note: Using Angular-cli you **MUST** run the command `ng eject` to eject the Webpack settings into an external file. 
 
 To get a better understanding of Webpack, you can view the documentation here: [Webpack Official](https://webpack.github.io/) and about [Loaders](https://github.com/webpack/docs/wiki/loaders).
+
+## CSS Pre-Processors. 
+
+To improve writing CSS, there were different approaches such as separating definitions into smaller files and importing them into one central file. This approach helped to deal with components but, did not solve code repetitions and maintainability problems. Another method was early implementations of object-oriented CSS. 
+
+Having multiple classes increased re-usability but decreased the maintainability.
+
+Pre-processors, with their advanced features, helped to achieve writing reusable, maintainable and extensible codes in CSS. By using a pre-processor, you can quickly increase your productivity, and decrease the number of lines you are writing in a project; you also can extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets. 
+
+* SASS - SCSS:  Sass (Syntactically Awesome Style Sheets) is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more. It also helps to keep things organized and allows you to create style sheets faster.
+
+    ```
+    .accordion {
+      $accordion-header-color: $primary-color;
+      $accordion-padding: 1em;
+      
+      @extend %module;
+      @include transition(all 0.3s ease-out);
+      background: $accordion-header-color;
+      padding: $accordion-padding;
+    }
+    ```
+
+*  LESS:  Less (which stands for Leaner Style Sheets) is a backward-compatible language extension for CSS. 
+
+    ```
+    @the-border: 1px;
+    @base-color: #111;
+    @red: #842210;
+     
+    #concrete_header {
+      color: @base-color * 3;
+      border-left: @the-border;
+      border-right: @the-border * 3;
+    }
+    #concrete_footer { 
+      color: @base-color + #003300;
+    }
+    ```
+
+* Stylus:  stylus is a dynamic stylesheet preprocessor language that is compiling into Cascading Style Sheets. Sass and LESS influence its design. 
+    
+    ```
+    // Defaults
+    
+    gridColumnCount ?= 12
+    gridColumnWidth ?= 60
+    gridPadding     ?= 20
+    
+    // Grid, row, cell
+    
+    .l-grid
+      width unit(gridColumnCount * (gridColumnWidth + gridPadding), px)
+      margin 0 auto
+    
+    ```
+
+### Which to use?
+The most popular pre-processor in web development across the world is SASS or SCSS. So if you want to create reusable and maintainable components, use SASS, but at the end, it is up to you.
+
+![scss-graph](https://blog.keycdn.com/blog/wp-content/uploads/2015/09/sass-vs-less-poll.webp)
+
 
 ## Material Links
 <!-- 1. [What is cross-browser and why we need it](https://medium.com/@sarahelson81/what-is-cross-browser-compatibility-and-why-we-need-it-b41423c3501a)
