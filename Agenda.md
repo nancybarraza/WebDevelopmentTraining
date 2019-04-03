@@ -74,7 +74,7 @@
 
 
 
-##JS - Frameworks
+## JS - Frameworks
 
 * **Angular**
 	* TypeScript
