@@ -56,7 +56,7 @@
 	* SASS - SCSS
 	* LESS
 
-##Webpack
+## Webpack
 
 * What is it?
 * How to use it?
@@ -74,7 +74,7 @@
 
 
 
-## JS - Frameworks
+### JS - Frameworks
 
 * **Angular**
 	* TypeScript
