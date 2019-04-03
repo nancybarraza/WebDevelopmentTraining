@@ -20,8 +20,6 @@
 * Cross Browser compatibility
 	* Why to use it?
 	* How to achieve it?
-	* Mozilla DevTools
-
 
 ## CSS
 
