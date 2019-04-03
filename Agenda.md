@@ -90,8 +90,8 @@
 * Implement a content security policy.
 * Help prevent man in the middle attacks by enabling public key pins.
 * Apply subresource integrity to your resource’s <script> or <link> elements
-* Use an updated version of TLS. To learn more, read our TLS 1.2 vs TLS 1.1 article and avoid using SSL completely.
-* This goes without saying, use strong passwords that employ a combination of lowercase and uppercase letters, numbers, special symbols, etc.
+* Use an updated version of TLS. 
+* Use strong passwords that employ a combination of lowercase and uppercase letters, numbers, special symbols, etc.
 
 
 ## Performance Optimization
