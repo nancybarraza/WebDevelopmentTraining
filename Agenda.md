@@ -54,13 +54,6 @@
 	* SASS - SCSS
 	* LESS
 
-## Webpack
-
-* What is it?
-* How to use it?
-* Basic Setup
-* Loaders
-
 ## JS
 * JS on Web
 	* jQuery
@@ -71,19 +64,22 @@
 * Drag & Drop
 * Modernizr & Polyfills
 
-
-
 ### JS - Frameworks
 
 * **Angular**
 	* TypeScript
-* Viu
+* Vue
 * React
 
 ## Debugging 
 * Chrome Dev Tools
-* Safari Dev Tools
-* Firefox Dev Tools
+
+## Webpack
+
+* What is it?
+* How to use it?
+* Basic Setup
+* Loaders
 
 ## Security Best Practices
 * Implement HTTPS and redirect all HTTP traffic to HTTPS.
@@ -93,7 +89,3 @@
 * Apply subresource integrity to your resource’s <script> or <link> elements
 * Use an updated version of TLS. 
 * Use strong passwords that employ a combination of lowercase and uppercase letters, numbers, special symbols, etc.
-
-
-## Performance Optimization
-// TODO
