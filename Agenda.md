@@ -62,7 +62,6 @@
 * Geolocation
 * Web Workers
 * Drag & Drop
-* Modernizr & Polyfills
 
 ### JS - Frameworks
 
