@@ -57,7 +57,6 @@
 ## JS
 * JS on Web
 	* jQuery
-* Indexed DB
 * Local Storage / Session Storage
 * Geolocation
 * Drag & Drop
