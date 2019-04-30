@@ -60,13 +60,11 @@
 * Indexed DB
 * Local Storage / Session Storage
 * Geolocation
-* Web Workers
 * Drag & Drop
 
 ### JS - Frameworks
 
 * **Angular**
-	* TypeScript
 * Vue
 * React
 
